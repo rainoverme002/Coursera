@@ -1,4 +1,4 @@
-# Dicoding
+# Coursera
 
 [Coursera](https://www.coursera.com) is one of the online course platform
 
