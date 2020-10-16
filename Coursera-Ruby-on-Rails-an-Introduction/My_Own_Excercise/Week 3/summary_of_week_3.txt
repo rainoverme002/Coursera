@@ -1,0 +1,34 @@
+# Ruby has MVC
+
+rails new my_app_name
+rails server or s
+rails g controller controller_name [action1 action2]
+
+Model interact with the Database
+* named singular
+
+View is the html View
+* it use the erb
+* <* ....... *> to use ruby syntax in the html (like jsx)
+* <*= ........*> to get the ruby operation output and convert it to html
+
+Controller is the API(Get, Post, Patch, Put) request
+* named plural using "s"
+* config/routes.rb is location of the application route draw
+  get "greeter/hello" => "greeter#hello"
+  (API) (URI end point)     (controller)
+* the instance variable in controller can't store value
+  it should use the db or session to store value
+
+Helpers is the (view) helpers
+* it provide reusable code for the view
+* (link_to name, path or url) helper to generate hyperlink
+
+Ruby gems: HTTParty
+* Restful web services client
+
+Bundler
+* use for gem manager
+* you can use it to make the gem better
+* bundle exec => execute the app using the gem that specified in the gemfile
+ 
